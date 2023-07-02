@@ -1,0 +1,141 @@
+.menu{
+    color:white;
+    background-color:#45015d ;
+    border-radius:15px ;
+    font-weight:bold ;
+    padding: 10px 20px;
+    width: 150px;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.menu a{
+    color:inherit;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    padding:8px 16px;
+    box-sizing: border-box;
+}
+.menu a:hover{
+    color :#000000;
+}
+h1{
+    font-weight: 400;
+    font-size: 64px;  
+}
+.main{
+    margin-left: 360px;
+    margin-top:60px ;
+    margin-right: 20px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    margin:0;
+}
+.img img{
+    width:45%;
+    border-radius: 16px;
+    margin: 5px;
+    opacity: 0.7;
+}
+.img img:hover{
+    opacity: 1;
+}
+h2{
+    color:#99015d;
+    font-weight: 400;
+    font-size: 49px;
+}
+hr{
+    border:5px solid #45015d ;
+    width:100%;
+    border-radius: 8px;
+}
+.member{
+     width:30%;
+     padding:8px 8px;
+     display:inline-block;
+
+}
+.member img{
+    filter: grayscale(30%);
+    width:100%;
+    border-radius:10px ;
+}
+.member .description{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 2px 16px 5px;
+}
+.member .position{
+    color :gray;
+}
+.tariff{
+    width: 48%;
+    padding: 0px 8px;
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 48px;
+}
+.tariff-pro{
+    width: 48%;
+    padding: 0px 8px;
+    min-width: 150px;
+    display: inline-block;
+    text-align: right-center; 
+}
+.tariff-name{
+   padding:15px 5px;
+   background-color: purple; 
+   color:white;
+   border-radius: 15px;
+}
+.tariff button{
+    padding:9px 3px;
+    color:dark-blue;
+    border-radius:5px;
+    width: 170px;
+}
+.tariff li{
+    list-style-type: none;
+    border-bottom-width:1px ;
+    border-bottom-style: solid;
+    border-bottom-color:#dddddd;
+    padding:16px 0px;
+}
+.pro .traff-name{
+    color:orange;
+}
+.pro button{
+    background-color: orange;
+    color:white;
+}
+.contact input{
+    border: 1px solid purple;
+    display:block;
+    width:100%;
+    font-size:16px;
+    padding:8px 0px;
+}
+#footer{
+    background-color: #f1f1f1;
+    text-align: right;
+    padding:32px 58px 32px;
+}
+#footer a{
+    color:black;
+}
+.contact button{
+    border-radius: 10px;
+    background-color: purple;
+    color:white;
+    text-align: center;
+    padding: 15px 5px;
+    width: 100%;
+}
